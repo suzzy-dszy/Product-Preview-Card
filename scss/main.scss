@@ -4,12 +4,27 @@ body {
   background: $primary-color-2;
   height: 100vh;
   line-height: 1;
+  color: $secondary-color-2;
+}
+
+h1 {
+  font-family: $font-primary;
+  font-weight: $font-weight-bold;
+  font-size: 2rem;
+  color: $secondary-color-1;
+}
+
+h2 {
+  font-family: $font-secondary;
+  font-weight: $font-weight-medium;
+  font-size: 1rem;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }

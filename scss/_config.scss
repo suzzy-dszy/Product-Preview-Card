@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 $primary-color-1: hsl(158, 36%, 37%);
 $primary-color-2: hsl(30, 38%, 92%);
 
-$secondary-color-1:  hsl(212, 21%, 14%);
+$secondary-color-1: hsl(212, 21%, 14%);
 $secondary-color-2: hsl(228, 12%, 48%);
 $secondary-color-3: hsl(0, 0%, 100%);
 
-*{
+$font-primary: 'Fraunces', serif;
+$font-secondary: 'Montserrat', sans-serif;
+
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-@mixin transition-ease{
+@mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
-
