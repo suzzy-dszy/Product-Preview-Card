@@ -1,0 +1,17 @@
+$primary-color-1: hsl(158, 36%, 37%);
+$primary-color-2: hsl(30, 38%, 92%);
+
+$secondary-color-1:  hsl(212, 21%, 14%);
+$secondary-color-2: hsl(228, 12%, 48%);
+$secondary-color-3: hsl(0, 0%, 100%);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease{
+  transition: all 0.5s ease-in-out;
+}
+

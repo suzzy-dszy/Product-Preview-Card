@@ -1,0 +1,15 @@
+@import 'config';
+
+body {
+  background: $primary-color-2;
+  height: 100vh;
+  line-height: 1;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
