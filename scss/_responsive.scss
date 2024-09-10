@@ -1,5 +1,42 @@
 @include media-md {
   .product-card {
-    width: 50vw;
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__img--mobile {
+      visibility: hidden;
+      position: absolute;
+      top: -100vh;
+    }
+
+    &__img--desktop {
+      visibility: visible;
+      position: initial;
+      top: 0;
+      border-radius: 20px 0 0 20px;
+    }
+
+    
+  }
+}
+
+@include media-lg {
+  .product-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__img--mobile {
+      visibility: hidden;
+      position: absolute;
+      top: -100vh;
+    }
+
+    &__img--desktop {
+      visibility: visible;
+      position: initial;
+      top: 0;
+      border-radius: 20px 0 0 20px;
+    }
   }
 }
