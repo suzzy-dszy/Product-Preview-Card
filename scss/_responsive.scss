@@ -1,25 +1,12 @@
 @include media-md {
   .product-card {
-    max-width: 1000px;
+    max-width: 600px;
     width: fit-content;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: stretch;
     margin: 5%;
-
-    &__img--mobile {
-      visibility: hidden;
-      position: absolute;
-      top: -100vh;
-    }
-
-    &__img--desktop {
-      visibility: visible;
-      position: initial;
-      top: 0;
-      border-radius: 20px 0 0 20px;
-    }
 
     &__content {
       display: flex;
