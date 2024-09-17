@@ -1,5 +1,4 @@
 @import 'config', 'product-card', 'responsive';
-
 html {
   overflow: scroll;
 }
@@ -10,17 +9,14 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: $primary-color-2;
   height: 100vh;
   line-height: 1;
   color: $secondary-color-2;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem;
 }
 
 h1 {
